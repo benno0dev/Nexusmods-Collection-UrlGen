@@ -21,8 +21,14 @@ TXT_MODE:
 FILE_TYPE:
 > technically all files types are supported, these are just the ones i recommend
   - txt
-  - sh
+  - sh (not tested if it works with TXT_MODE off)
   - bat
 
 GAME_NAME:
 - Enter the name of the game that is used in the nexusmods url (e.g. "cyberpunk2077")
+
+DOWNLOAD_MODE:
+- vortex: opens download page for vortex mod manager
+- normal: opens download page for normal download (zip file)
+- file: opens only the files tab
+- none: doesn't open download page / opens the description page
