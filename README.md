@@ -7,7 +7,7 @@ A python script that creates you a url list of all mods in a nexusmods mod colle
 - Finished 🥳
 
 # How to use?
-At first, configurate the script (see [Config](https://github.com/benno0dev/Nexusmods-Collection-UrlGen/#Config)).\
+First of all, configurate the script (see [Config](https://github.com/benno0dev/Nexusmods-Collection-UrlGen/#Config)).\
 I assume you already downloaded the pack or at least added it, so a collection.json was created at ```C:\Users\<username>\AppData\Roaming\Vortex\<game>\<collection+some numbers>\collection.json``` but check ```vortex > settings > mods``` for that.\
 Now copy the collection.json to the folder the main.py is in and execute the script.\
 Now a collection.txt or what ever you put as your file type was created.\
