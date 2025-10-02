@@ -13,7 +13,7 @@ A python script that creates you a url list of all mods in a nexusmods mod colle
 # How to use?
 First of all, configurate the script (see [Config](https://github.com/benno0dev/Nexusmods-Collection-UrlGen/#Config)). (NOT NEEDED IF USING easyconf.py OR THE .exe)\
 I assume you already downloaded the pack or at least added it, so a collection.json was created at ```%appdata%\Vortex\<game>\<collection+some numbers>\collection.json``` but check ```vortex > settings > mods``` for that.\
-Now copy the collection.json to the folder the main.py/easyconf.py/easyconf.exe is in and execute the script.\
+Now copy the collection.json to the folder the script is in and execute the script.\
 Now a collection.bat or what ever you put as your file type was created.\
 Thats all, have fun!
 
