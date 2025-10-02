@@ -16,15 +16,15 @@ def conf():
         global TXT_MODE
         txt_choice = input("Do you want the generated file to be instantly runnable (uses the 'start' command to open all mods in browser) [Y/n] ")
         match txt_choice.lower():
-            case "": TXT_MODE = True
-            case "y": TXT_MODE = True
-            case "n": TXT_MODE = False
+            case "": TXT_MODE = False
+            case "y": TXT_MODE = False
+            case "n": TXT_MODE = True
             case _: restart_section(txt, txt_choice.lower, "y/n", use_print=True)
     def filetype():
         global FILE_TYPE
         ft_choice = input("What filetype should the generated file be? [recommended: bat (windows, default), sh (linux, mac)] ")
         if ft_choice == "json": restart_section(filetype, ft_choice, "anything except json", True)
-        elif ft_choice == "": ft_choice = "bat"
+        elif ft_choice == "": ft_choice = "bat"; FILE_TYPE = ft_choice
         else: FILE_TYPE = ft_choice
     def download():
         global DOWNLOAD_MODE
