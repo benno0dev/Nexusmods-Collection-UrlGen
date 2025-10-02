@@ -17,7 +17,8 @@ Now copy the collection.json to the folder the script is in and execute the scri
 Now a collection.bat or what ever you put as your file type was created.\
 Thats all, have fun!
 
-# Config (Only when using main.py)
+# Config
+! only needed when using the main.py script
 TXT_MODE:
 - True: just writes the urls in seperate lines
 - False: writes a "start" in front of every url, so it automatically opens every url in your default browser
